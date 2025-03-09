@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index",
-    "dev" : "nodemon index"
+    "start": "node index",
+    "dev": "nodemon index",
+    "main": "node index"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "firebase-admin": "^13.2.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
     "nodemon": "^3.1.9"
   }
 }
