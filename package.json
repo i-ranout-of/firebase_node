@@ -1,16 +1,25 @@
 {
-  "name": "firebase_poc",
+  "name": "firebase_node",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "dev": "nodemon index"
+    "start" : "node index",
+    "dev" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-ranout-of/firebase_node.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/i-ranout-of/firebase_node/issues"
+  },
+  "homepage": "https://github.com/i-ranout-of/firebase_node#readme",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",

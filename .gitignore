@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Firebase credentials (VERY IMPORTANT ⚠️)
+serviceAccountKey.json
+.env
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Firebase local emulators
+firebase-debug.log
+.firebaserc
+firebase.json
+
+# Editor & OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
